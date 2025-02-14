@@ -3143,7 +3143,7 @@ body {
   color: rgb(204 204 204 / var(--tw-text-opacity));
 }
 .tw-text-accent {
-  color: hsl(355.69deg 89.3% 63.33%);
+  color: #b48811;
 }
 .tw-text-accent-foreground {
   color: hsl(var(--accent-foreground));

@@ -82,16 +82,16 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 :root {
-  --color-primary: #059dff;
+  --color-primary: #b48811;
   --color-primary-rgba: rgb(5, 157, 255);
   --color-primary-rgba-2: rgba(5, 157, 255, 0.15);
   --color-primary-alt: #059dff;
   --color-primary-light: #059dff;
   --color-primary-lightest: #059dff;
-  --color-secondary: #fb5343;
-  --color-tertiary: #6549d5;
+  --color-secondary: #b48811;
+  --color-tertiary: #a27a0f;
   --color-tertiary-alt: #6549d5;
-  --color-pink: #e33fa1;
+  --color-pink: #906c0d;
   --color-light-green: #36c6f0;
   --color-primary-darker: #011827;
   --color-tertiary-darker: #150b40;
@@ -845,6 +845,17 @@ ul.liststyle.bullet li {
     padding-left: 19px;
   }
 }
+
+.slider-area {
+  background-image: url(../images/Race-Car-PNG-Images.png),
+    linear-gradient(rgb(0 0 0 / 74%), rgb(0 0 0));
+  background-blend-mode: overlay;
+}
+/* .slider-area {
+  background-image: url(../images/75609b9edaecfd9de367ab6919dcbc72.gif),
+    linear-gradient(rgb(0 0 0 / 74%), rgb(0 0 0));
+  background-blend-mode: overlay;
+} */
 ul.liststyle.bullet li::before {
   position: absolute;
   content: "";
