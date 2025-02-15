@@ -86,7 +86,7 @@
   --color-primary-rgba: rgb(5, 157, 255);
   --color-primary-rgba-2: rgba(5, 157, 255, 0.15);
   --color-primary-alt: #059dff;
-  --color-primary-light: #059dff;
+  --color-primary-light: #906c0d;
   --color-primary-lightest: #059dff;
   --color-secondary: #b48811;
   --color-tertiary: #a27a0f;
@@ -12001,7 +12001,7 @@ Timeline Area
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgba(242, 201, 76, 0) 40.62%,
-    rgba(82, 56, 255, 0.5) 100%
+    rgb(157 118 14) 100%
   );
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
